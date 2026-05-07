@@ -30,8 +30,8 @@
     {
       "name": "thinking-partner",
       "source": {
-        "source": "github",
-        "repo": "dr-zog/thinking-partner"
+        "source": "url",
+        "url": "https://github.com/dr-zog/thinking-partner.git"
       },
       "description": "A deterministic thinking partner that challenges assumptions and applies 150+ mental models to sharpen decisions, solve problems, and think more clearly. Features orientation detection, a cognitive operations framework, and structured diagnostic workflows.",
       "homepage": "https://github.com/dr-zog/thinking-partner",
