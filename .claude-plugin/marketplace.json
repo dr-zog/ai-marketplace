@@ -1,0 +1,50 @@
+{
+  "name": "dr-zog",
+  "description": "Dr Zog's public Claude Code plugins.",
+  "owner": {
+    "name": "Dr. Zog",
+    "email": "me@dr-zog.com"
+  },
+  "plugins": [
+    {
+      "name": "jfdi-agents",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/dr-zog/jfdi-agents.git",
+        "path": "plugins/jfdi-agents"
+      },
+      "description": "Architect-led agent team for autonomous software development. Product Owner + Architect scope the system, then the Architect mints per-layer developer agents (backend, frontend, middleware, shared) tailored to the chosen stack. The team walks the stack sequentially to build a walking skeleton, then parallelises refinement with each developer owning its own folder.",
+      "homepage": "https://github.com/dr-zog/jfdi-agents",
+      "repository": "https://github.com/dr-zog/jfdi-agents",
+      "license": "MIT",
+      "category": "agents",
+      "keywords": [
+        "agents",
+        "agent-teams",
+        "autonomous",
+        "product-team",
+        "architect-led",
+        "layered-team"
+      ]
+    },
+    {
+      "name": "thinking-partner",
+      "source": {
+        "source": "github",
+        "repo": "dr-zog/thinking-partner"
+      },
+      "description": "A deterministic thinking partner that challenges assumptions and applies 150+ mental models to sharpen decisions, solve problems, and think more clearly. Features orientation detection, a cognitive operations framework, and structured diagnostic workflows.",
+      "homepage": "https://github.com/dr-zog/thinking-partner",
+      "repository": "https://github.com/dr-zog/thinking-partner",
+      "license": "MIT",
+      "category": "thinking",
+      "keywords": [
+        "mental-models",
+        "thinking",
+        "decision-making",
+        "frameworks",
+        "skill"
+      ]
+    }
+  ]
+}
